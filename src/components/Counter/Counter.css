@@ -1,0 +1,25 @@
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counter-wrapper button {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  transition: all 150ms ease-in-out;
+}
+
+.counter-wrapper button:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.counter-wrapper button:active {
+  transform: scale(0.95);
+}
+
+.counter-wrapper span {
+  font-size: 50px;
+}
